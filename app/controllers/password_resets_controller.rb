@@ -6,9 +6,10 @@ class PasswordResetsController < ApplicationController
         @user = User.find_by(email: params[:email])
 
         if @user.present?
+            
             # TODO Send email
             # Go to password mailer, semd the reset email with (using) parameters of user, and deliver later so it's done in background
-            PasswordMailer.with(user: @user).reset.deliver_later
+            PasswordMailer.with(user: @user).reset.deliver_now
         else
         end
 
