@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# schedule_tweets
+This is a Ruby on Rails application built as part of a tutorial from GoRails. It is a fully featured web application to schedule tweets for a specific time and day. It includes features such as secure user creation, login, password management and more. Bootstrap is used to style the front end and Puma is used as the server on the back end with Rails handling just about everything else.
