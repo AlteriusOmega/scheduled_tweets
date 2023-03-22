@@ -1,0 +1,2 @@
+# schedule_tweets
+This is a Ruby on Rails application built as part of a tutorial from GoRails. It is a fully featured web application to schedule tweets for a specific time and day. It includes features such as secure user creation, login, password management and more. Bootstrap is used to style the front end and Puma is used as the server on the back end with Rails handling just about everything else.
